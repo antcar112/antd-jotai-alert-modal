@@ -1,0 +1,31 @@
+.nav {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li a {
+      display: block;
+      padding: 6px 18px;
+      color: white;
+
+      &.active {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.App-link {
+  color: #61dafb;
+}
